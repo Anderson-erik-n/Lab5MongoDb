@@ -1,0 +1,65 @@
+.jumbotron {
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;        
+text-align: center;
+        background-color: rgba(102,0,102);
+        color: rgba(255,255,51,);
+}
+
+
+
+.well {
+ position: relative;
+margin: auto;
+margin-top: 100px;
+width: 500px;
+background-color: #eee ;
+}
+
+.table {
+ position: relative;
+margin: auto;
+margin-top: 150px;
+width: 500px;
+background-color: #eee ;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+
+
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid;
+    padding: 10px;
+background-color: #eee ;
+}
+
+#first {
+padding: 20px;
+}
+
+#second {
+padding: 20px;
+}
+
+
+body {
+background-image: url("https://raw.githubusercontent.com/Anderson-erik-n/Lab5MongoDb/master/chat-english-online.jpg");
+}
+
+
+
+

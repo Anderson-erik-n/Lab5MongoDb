@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comments!</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/comments.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+<body>
+
+<div class = "jumbotron">
+	<h1>Comment Database</h1>
+</div>
+
+<form id="commentForm" class="center"  action="">
+  <label id="first"  for="name">Name: </label><input type="text" id="Name" placeholder="Name"><br>
+  <label id="second" for="comment">Enter Comment here: </label><input type="text" id="Comment" placeholder="Comment"><br>
+</form>
+
+<thead class="table">
+      <tr>
+        <th><button id="serialize">Submit Comment</button></th>
+        <th><button id="getThem">Show Comments</button></th>
+        <th></th>
+      </tr>
+    </thead>
+<div id="json"></div>
+<div id="done"></div>
+<div id="comments" class="well"></div>
+</body>
+</html>
